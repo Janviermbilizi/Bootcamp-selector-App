@@ -6,9 +6,9 @@ body {
 
 #container {
   background-color: purple;
-  color: white;
   list-style-type: none;
   text-align: center;
+  display: inline-block;
   padding: 20px 0 20px 0;
   width: 100%;
   text-decoration: none;
