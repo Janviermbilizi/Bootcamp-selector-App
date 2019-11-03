@@ -6,7 +6,7 @@ body {
 #container {
   background-color: purple;
   color: white;
-  list-style: none;
+  list-style-type: none;
   text-align: center;
   padding: 20px 0 20px 0;
 }
