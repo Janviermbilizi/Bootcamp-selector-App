@@ -17,6 +17,6 @@ ul li {
   text-decoration: none;
 }
 
-#container li {
+#container > li {
   display: inline-block;
 }
