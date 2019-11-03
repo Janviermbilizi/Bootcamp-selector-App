@@ -1,10 +1,14 @@
-body {
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: white;
 }
 
-#pre-menu {
+#pre-menu{
   background-color: white;
 }
 
-#menu {
+#menu{
   background-color: purple;
 }
