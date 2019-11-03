@@ -3,14 +3,63 @@ body {
   padding: 0;
   font-family: "Ariel", serif;
 }
+
+ul li {
+  list-style-type: none;
+}
 #container {
   background-color: purple;
   color: white;
   list-style-type: none;
   text-align: center;
   padding: 20px 0 20px 0;
+  width: 100%;
+  text-decoration: none;
 }
 
-ul li {
-  list-style-type: none;
+#wrapper{
+	width: 980px;
+	margin: 0px auto;
 }
+
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li.pad{
+	float: left;
+}
+#holder  li{
+	color: #838080;
+	text-decoration: none;
+	transition: 0.1s;
+}
+a{
+	color: #838080;
+	text-decoration: none;
+	display: block;
+	transition: 0.1s;
+}
+.pad a{
+	padding: 18 17 22 17;
+}
+#holder ul{
+	width: 100%;
+}
+#holder ul li span{
+	padding: 7 0;
+}
+.pad > a:hover, .pad > li:hover > a {
+	background: #262626;
+}
+#App ul li a:hover span{
+	transition: 0.1s;
+}
+#goals ul li a:hover span, .pad > li:hover > a > span{
+	border-bottom: 2px solid #FF6E00;
+	transition: 0.1s;
+}
+#Questions ul li a:hover span, #vfx .pad > li:hover > a > span{
+	border-bottom: 2px solid #6159CC;
+	transition: 0.1s;
