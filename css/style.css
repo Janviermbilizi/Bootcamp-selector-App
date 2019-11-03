@@ -13,7 +13,3 @@ body {
   width: 100%;
   text-decoration: none;
 }
-
-#holder > li {
-  display: inline-block;
-}
