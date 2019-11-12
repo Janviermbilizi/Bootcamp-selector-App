@@ -30,30 +30,33 @@ body {
   background: white;
 }
 .LOGO {
-  flex: 0 1 auto;
-  text-align: center;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #Main {
-  background: gray;
-  width: 100%
+  width: 100%;
   display: flex;
-  margin: 0;
   padding: 0;
-
-}
-.rightside {
-  width: 50%;
-  height: 500px;
-  float: right;
-  align-items: center;
+  position: absolute;
 
 }
 
 .leftside {
-  width: 50%;
+  width: 100%;
+  height: 500px;
+  float: right;
+  align-items: center;
+  text-align: center;
+  font-size: larger;
+  
+}
+
+.rightside {
+  width: 100%;
   height: 500px;
   float: left;
   align-items: center;
+  text-align: center;
 }
