@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: "arial" serif;
-
 }
 
 .nav {
@@ -15,28 +14,46 @@ body {
   justify-content: space-around;
   align-items: center;
   flex: 1 0 auto;
-  
 }
 .nav > li {
   justify-content: center;
   margin: 1 0rem;
-
 }
 .nav > li > a {
   text-decoration: none;
   color: black;
   font-weight: bold;
   font-size: 20px;
-
 }
 .nav > li > a:hover {
   color: purple;
   background: white;
-
 }
 .LOGO {
   flex: 0 1 auto;
   text-align: center;
   display: flex;
+}
 
+#Main {
+  background: gray;
+  width: 100%
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+}
+.rightside {
+  width: 50%;
+  height: 500px;
+  float: right;
+  align-items: center;
+
+}
+
+.leftside {
+  width: 50%;
+  height: 500px;
+  float: left;
+  align-items: center;
 }
